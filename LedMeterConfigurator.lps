@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="32">
+      <Unit0>
+        <Filename Value="LedMeterConfigurator.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="29" Y="10"/>
+        <UsageCount Value="123"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="maindlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainDialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainDlg"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="212"/>
+        <CursorPos X="22" Y="231"/>
+        <UsageCount Value="123"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Controls.LedMeter"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="89"/>
+        <CursorPos Y="198"/>
+        <UsageCount Value="123"/>
+        <Bookmarks Count="1">
+          <Item0 Y="472"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="previewdlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PreviewDialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PreviewDlg"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="14"/>
+        <CursorPos X="26" Y="39"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\ATOMEK.Controls\graphics.utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Graphics.Utils"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="20"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\ATOMEK.Controls\_Controls.LedMeter.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="320"/>
+        <CursorPos X="5" Y="352"/>
+        <UsageCount Value="16"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="D:\Programme\Lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="356"/>
+        <CursorPos X="44" Y="374"/>
+        <UsageCount Value="47"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="1856"/>
+        <CursorPos Y="1873"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="D:\Programme\Lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1617"/>
+        <CursorPos Y="1630"/>
+        <UsageCount Value="46"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\customlabel.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="98"/>
+        <CursorPos X="3" Y="100"/>
+        <UsageCount Value="41"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="534"/>
+        <CursorPos X="14" Y="550"/>
+        <UsageCount Value="45"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\objpas\classes\collect.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="2" Y="44"/>
+        <UsageCount Value="45"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\inc\typshrdh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="132"/>
+        <CursorPos Y="147"/>
+        <UsageCount Value="37"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\inc\typshrd.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="320"/>
+        <CursorPos X="3" Y="322"/>
+        <UsageCount Value="37"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\win\wininc\redef.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="636"/>
+        <CursorPos X="10" Y="652"/>
+        <UsageCount Value="37"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\canvas.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="999"/>
+        <CursorPos Y="1015"/>
+        <UsageCount Value="12"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="D:\Programme\Lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="249"/>
+        <CursorPos X="3" Y="270"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\objpas\classes\persist.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="3" Y="96"/>
+        <UsageCount Value="8"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\controlconsts.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="13" Y="69"/>
+        <UsageCount Value="8"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\ATOMEK.Controls\controls.segmentdisplay.pas"/>
+        <UnitName Value="Controls.SegmentDisplay"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="55"/>
+        <CursorPos Y="71"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\customlistbox.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="462"/>
+        <CursorPos X="3" Y="465"/>
+        <UsageCount Value="13"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="95"/>
+        <CursorPos X="40" Y="111"/>
+        <UsageCount Value="12"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\trackbar.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="151"/>
+        <CursorPos Y="167"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="D:\Programme\Lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="802"/>
+        <CursorPos X="14" Y="816"/>
+        <UsageCount Value="8"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="D:\Programme\Lazarus\lcl\include\brush.inc"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="21"/>
+        <CursorPos Y="37"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="D:\Programme\Lazarus\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="174"/>
+        <CursorPos X="14" Y="190"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="D:\Programme\Lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="35"/>
+        <CursorPos X="14" Y="49"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="maindlg.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="345"/>
+        <CursorPos X="13" Y="354"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\objpas\math.pp"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="330"/>
+        <CursorPos X="52" Y="345"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="106"/>
+        <CursorPos X="57" Y="117"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="D:\Programme\Lazarus\lcl\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="145"/>
+        <CursorPos X="3" Y="37"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\ATOMEK.Controls\registerledcontrols.pas"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="9" Y="6"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit31>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="58" Column="31" TopLine="53"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\ATOMEK.Controls\graphics.utils.pas"/>
+        <Caret Line="8" Column="11"/>
+      </Position2>
+      <Position3>
+        <Filename Value="D:\Programme\Lazarus\lcl\graphics.pp"/>
+        <Caret Line="59" Column="3" TopLine="37"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\ATOMEK.Controls\graphics.utils.pas"/>
+        <Caret Line="10" Column="78"/>
+      </Position4>
+      <Position5>
+        <Filename Value="D:\Programme\Lazarus\lcl\graphics.pp"/>
+        <Caret Line="59" Column="3" TopLine="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="56" Column="23" TopLine="21"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="37" TopLine="22"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="111" TopLine="83"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="35" TopLine="5"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="95" TopLine="64"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="36" TopLine="9"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="85" TopLine="85"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="30" TopLine="16"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="85" TopLine="74"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="41" TopLine="16"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="137" TopLine="101"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="49" TopLine="21"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="83" Column="22" TopLine="71"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="38" TopLine="23"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="105" Column="5" TopLine="82"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="48" TopLine="9"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="136" TopLine="136"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="35" TopLine="19"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="109" Column="5" TopLine="95"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="38" TopLine="16"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="116" TopLine="97"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="112" Column="7" TopLine="97"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="105" Column="60" TopLine="84"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="38"/>
+      </Position29>
+      <Position30>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="8" Column="10" TopLine="4"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkData"/>
+        <WatchData Value="v"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Expression Value="v=0"/>
+        <InitialEnabled Value="False"/>
+      </Item1>
+    </BreakPoints>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="end"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

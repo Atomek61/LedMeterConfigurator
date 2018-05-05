@@ -1,0 +1,51 @@
+object PreviewDialog: TPreviewDialog
+  Left = 492
+  Height = 463
+  Top = 149
+  Width = 124
+  BorderIcons = []
+  Caption = 'LedMeter Preview'
+  ClientHeight = 463
+  ClientWidth = 124
+  Constraints.MinHeight = 160
+  Constraints.MinWidth = 124
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  Visible = True
+  object Label12: TLabel
+    Left = 10
+    Height = 115
+    Top = 20
+    Width = 104
+    Align = alTop
+    Alignment = taCenter
+    AutoSize = False
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 20
+    BorderSpacing.Right = 10
+    Caption = 'Drag levels with the mouse here and resize this window'
+    Font.Color = clMaroon
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object PanelPreview: TPanel
+    Left = 40
+    Height = 303
+    Top = 140
+    Width = 44
+    Align = alClient
+    BorderSpacing.Left = 40
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 40
+    BorderSpacing.Bottom = 20
+    BevelOuter = bvLowered
+    Color = clBlack
+    Constraints.MinHeight = 36
+    Constraints.MinWidth = 36
+    ParentColor = False
+    TabOrder = 0
+  end
+end
