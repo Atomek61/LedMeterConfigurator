@@ -83,22 +83,6 @@ object MainDialog: TMainDialog
       OnKeyDown = EditGapSizeKeyDown
       TabOrder = 3
     end
-    object Label9: TLabel
-      Left = 8
-      Height = 15
-      Top = 138
-      Width = 50
-      Caption = 'Darkness:'
-      ParentColor = False
-    end
-    object EditDarkness: TEdit
-      Left = 96
-      Height = 23
-      Top = 136
-      Width = 63
-      OnKeyDown = EditDarknessKeyDown
-      TabOrder = 4
-    end
   end
   object GroupBoxOrientation: TGroupBox
     Left = 8

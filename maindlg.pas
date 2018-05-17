@@ -26,7 +26,6 @@ type
     EditAutoZeroInterval: TEdit;
     EditCode: TSynEdit;
     EditLevel: TEdit;
-    EditDarkness: TEdit;
     EditMinLevel: TEdit;
     EditColorNodeLevel: TEdit;
     EditBarcount: TEdit;
@@ -48,7 +47,6 @@ type
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
-    Label9: TLabel;
     ListBoxColorNodes: TListBox;
     PanelColorOn: TPanel;
     PanelColorOff: TPanel;
@@ -71,7 +69,6 @@ type
     procedure CheckBoxHorizontalClick(Sender: TObject);
     procedure EditAutoZeroIntervalKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure EditBarcountKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
-    procedure EditDarknessKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure EditGapSizeKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure EditLevelChange(Sender: TObject);
     procedure EditColorNodeLevelKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -99,9 +96,6 @@ var
 
 implementation
 
-uses
-  Math;
-
 {$R *.lfm}
 
 const
@@ -111,7 +105,6 @@ const
     '  MinLevel           := %MINLEVEL%;' + #13#10 +
     '  SegmentSize        := %SEGMENTSIZE%;' + #13#10 +
     '  GapSize            := %GAPSIZE%;' + #13#10 +
-    '  Darkness           := %DARKNESS%;' + #13#10 +
     '  Style              := %STYLE%;' + #13#10 +
     '  Orientation        := %ORIENTATION%;' + #13#10 +
     '  AutoZero           := %AUTOZERO%;' + #13#10 +
@@ -167,7 +160,6 @@ begin
   ReplaceFloat('%MINLEVEL%', Control.MinLevel);
   ReplaceInteger('%SEGMENTSIZE%', Control.SegmentSize);
   ReplaceInteger('%GAPSIZE%', Control.GapSize);
-  ReplaceFloat('%DARKNESS%', Control.Darkness);
   ReplaceStyle('%STYLE%', Control.Style);
   ReplaceOrientation('%ORIENTATION%', Control.Orientation);
   ReplaceBoolean('%AUTOZERO%', Control.AutoZero);
@@ -176,8 +168,8 @@ begin
   Frag := '';
   for i:=0 to Control.ColorNodes.Count-1 do begin
     Frag := Frag + '  with ColorNodes.Add as TColorNode do begin' + #13#10 +
-      Format('    Color := $%6.6x;'+#13#10+'    Level := %.2f;'+#13#10,
-        [Control.ColorNodes[i].Color, Control.ColorNodes[i].Level], CodeFormatSettings) +
+      Format('    OnColor := $%6.6x;'+#13#10+'    OffColor := $%6.6x;'+#13#10+'    Level := %.2f;'+#13#10,
+        [Control.ColorNodes[i].OnColor, Control.ColorNodes[i].OffColor, Control.ColorNodes[i].Level], CodeFormatSettings) +
       '  end;' + #13#10;
   end;
   Code := StringReplace(Code, '%COLORNODES%', Frag, []);
@@ -205,7 +197,7 @@ var
 begin
   i := ListBoxColorNodes.ItemIndex;
   EditColorNodeLevel.Text := LevelToString(LedMeter.ColorNodes[i].Level);
-  PanelColorOn.Color := LedMeter.ColorNodes[i].Color;
+  PanelColorOn.Color := LedMeter.ColorNodes[i].OnColor;
   PanelColorOff.Color := LedMeter.ColorNodes[i].OffColor;
 end;
 
@@ -235,7 +227,7 @@ begin
     FrameRect(ARect);
     ARect.Left := ARect.Right - 2*ARect.Height;
     InflateRect(ARect, -2, -2);
-    Brush.Color := LedMeter.ColorNodes[Index].Color;
+    Brush.Color := LedMeter.ColorNodes[Index].OnColor;
     FillRect(ARect);
   end;
 end;
@@ -246,9 +238,9 @@ var
 begin
   i := ListBoxColorNodes.ItemIndex;
   if i<>-1 then begin
-    ColorDialog.Color := LedMeter.ColorNodes[i].Color;
+    ColorDialog.Color := LedMeter.ColorNodes[i].OnColor;
     if ColorDialog.Execute then begin
-      LedMeter.ColorNodes[i].Color := ColorDialog.Color;
+      LedMeter.ColorNodes[i].OnColor := ColorDialog.Color;
     end;
   end;
 end;
@@ -360,14 +352,6 @@ begin
   end;
 end;
 
-procedure TMainDialog.EditDarknessKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
-begin
-  if Key=VK_RETURN then begin
-    Key := 0;
-    LedMeter.Darkness := StrToFloat(EditDarkness.Text);
-  end;
-end;
-
 procedure TMainDialog.EditGapSizeKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
 begin
   if Key=VK_RETURN then begin
@@ -414,7 +398,7 @@ end;
 
 procedure TMainDialog.ObjectToDialog;
 var
-  i, ItemIndex, n :integer;
+  i, ItemIndex :integer;
 begin
   with LedMeter do begin
     EditBarCount.Text := IntToStr(BarCount);
@@ -428,7 +412,7 @@ begin
       ItemIndex := ListBoxColorNodes.Items.Count-1;
     end;
     if ItemIndex<>-1 then begin
-      PanelColorOn.Color := LedMeter.ColorNodes[ItemIndex].Color;
+      PanelColorOn.Color := LedMeter.ColorNodes[ItemIndex].OnColor;
       PanelColorOff.Color := LedMeter.ColorNodes[ItemIndex].OffColor;
     end else begin
       PanelColorOn.Color := clBtnFace;
@@ -440,7 +424,6 @@ begin
     RadioButtonNormal.Checked := Style = lsNormal;
     RadioButtonBiDirectional.Checked := Style = lsBiDirectional;
     EditLevel.Text := LevelToString(LedMeter.Level);
-    EditDarkness.Text := Format('%.2f', [LedMeter.Darkness]);
     CheckBoxAutoZero.Checked := AutoZero;
     EditAutoZeroInterval.Text := IntToStr(LedMeter.AutoZeroInterval);
     EditCode.Text := BuildCode(LedMeter);
