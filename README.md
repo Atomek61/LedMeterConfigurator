@@ -1,6 +1,8 @@
 # LedMeterConfigurator
 A free Lazarus code explorer for the control TLedMeter of package LEDControls.
 
+Documentation: www.atomek.de/coding/ledcontrols
+
 Installation
 
 Pull all files to a local folder like "LedMeterConfigurator"
