@@ -4,11 +4,11 @@
     <PathDelim Value="\"/>
     <Version Value="10"/>
     <BuildModes Active="Release"/>
-    <Units Count="33">
+    <Units Count="34">
       <Unit0>
         <Filename Value="LedMeterConfigurator.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <CursorPos X="29" Y="10"/>
         <UsageCount Value="126"/>
         <Loaded Value="True"/>
@@ -20,8 +20,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainDlg"/>
-        <TopLine Value="158"/>
-        <CursorPos X="41" Y="172"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="237"/>
+        <CursorPos Y="243"/>
         <UsageCount Value="126"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -30,7 +31,7 @@
         <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controls.LedMeter"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="10"/>
         <TopLine Value="153"/>
         <CursorPos X="11" Y="150"/>
         <UsageCount Value="126"/>
@@ -46,7 +47,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PreviewDlg"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="9"/>
         <TopLine Value="14"/>
         <CursorPos X="26" Y="39"/>
         <UsageCount Value="35"/>
@@ -57,7 +58,7 @@
         <Filename Value="..\ATOMEK.Controls\graphics.utils.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Graphics.Utils"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <CursorPos X="20"/>
         <UsageCount Value="26"/>
         <Loaded Value="True"/>
@@ -79,7 +80,7 @@
       </Unit6>
       <Unit7>
         <Filename Value="D:\Programme\Lazarus\lcl\include\control.inc"/>
-        <EditorIndex Value="15"/>
+        <EditorIndex Value="16"/>
         <TopLine Value="1856"/>
         <CursorPos Y="1873"/>
         <UsageCount Value="55"/>
@@ -145,7 +146,7 @@
       <Unit16>
         <Filename Value="D:\Programme\Lazarus\lcl\graphics.pp"/>
         <UnitName Value="Graphics"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="249"/>
         <CursorPos X="3" Y="270"/>
         <UsageCount Value="20"/>
@@ -168,7 +169,7 @@
       <Unit19>
         <Filename Value="..\ATOMEK.Controls\controls.segmentdisplay.pas"/>
         <UnitName Value="Controls.SegmentDisplay"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="12"/>
         <TopLine Value="55"/>
         <CursorPos Y="71"/>
         <UsageCount Value="17"/>
@@ -206,7 +207,7 @@
       </Unit23>
       <Unit24>
         <Filename Value="D:\Programme\Lazarus\lcl\include\brush.inc"/>
-        <EditorIndex Value="14"/>
+        <EditorIndex Value="15"/>
         <TopLine Value="21"/>
         <CursorPos Y="37"/>
         <UsageCount Value="22"/>
@@ -215,7 +216,7 @@
       <Unit25>
         <Filename Value="D:\Programme\Lazarus\lcl\extctrls.pp"/>
         <UnitName Value="ExtCtrls"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="13"/>
         <TopLine Value="174"/>
         <CursorPos X="14" Y="190"/>
         <UsageCount Value="20"/>
@@ -224,7 +225,7 @@
       <Unit26>
         <Filename Value="D:\Programme\Lazarus\lcl\customtimer.pas"/>
         <UnitName Value="CustomTimer"/>
-        <EditorIndex Value="13"/>
+        <EditorIndex Value="14"/>
         <TopLine Value="35"/>
         <CursorPos X="14" Y="49"/>
         <UsageCount Value="20"/>
@@ -240,7 +241,7 @@
       </Unit27>
       <Unit28>
         <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\objpas\math.pp"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="8"/>
         <TopLine Value="330"/>
         <CursorPos X="52" Y="345"/>
         <UsageCount Value="18"/>
@@ -248,8 +249,7 @@
       </Unit28>
       <Unit29>
         <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="57"/>
         <CursorPos Y="83"/>
         <UsageCount Value="17"/>
@@ -258,7 +258,7 @@
       <Unit30>
         <Filename Value="D:\Programme\Lazarus\lcl\graphtype.pp"/>
         <UnitName Value="GraphType"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="145"/>
         <CursorPos X="3" Y="37"/>
         <UsageCount Value="14"/>
@@ -266,7 +266,7 @@
       </Unit30>
       <Unit31>
         <Filename Value="..\ATOMEK.Controls\registerledcontrols.pas"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="9" Y="6"/>
         <UsageCount Value="13"/>
         <Loaded Value="True"/>
@@ -274,130 +274,139 @@
       <Unit32>
         <Filename Value="..\ATOMEK.Controls\types.led.pas"/>
         <UnitName Value="Types.Led"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="11"/>
         <TopLine Value="34"/>
         <CursorPos X="66" Y="51"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit32>
+      <Unit33>
+        <Filename Value="D:\Programme\Lazarus\fpc\3.0.4\source\rtl\objpas\types.pp"/>
+        <UnitName Value="Types"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="308"/>
+        <CursorPos X="10" Y="323"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit33>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="72" TopLine="48"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="208" TopLine="208"/>
       </Position1>
       <Position2>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="108" TopLine="84"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="140" TopLine="112"/>
       </Position2>
       <Position3>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="355" TopLine="334"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="139" TopLine="116"/>
       </Position3>
       <Position4>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="427" TopLine="404"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="267" Column="3" TopLine="251"/>
       </Position4>
       <Position5>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="172" Column="34" TopLine="159"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="5" Column="68"/>
       </Position5>
       <Position6>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="200" Column="50" TopLine="186"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="629" Column="4" TopLine="603"/>
       </Position6>
       <Position7>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="230" Column="49" TopLine="216"/>
+        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
+        <Caret Line="193" Column="26" TopLine="181"/>
       </Position7>
       <Position8>
         <Filename Value="maindlg.pas"/>
-        <Caret Line="243" Column="32" TopLine="227"/>
+        <Caret Line="172" Column="67" TopLine="152"/>
       </Position8>
       <Position9>
         <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="61" TopLine="45"/>
+        <Caret Line="141" Column="43" TopLine="134"/>
       </Position9>
       <Position10>
         <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="208" TopLine="208"/>
+        <Caret Line="149" Column="42" TopLine="132"/>
       </Position10>
       <Position11>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="140" TopLine="112"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="115" Column="36" TopLine="106"/>
       </Position11>
       <Position12>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="139" TopLine="116"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="70" Column="25" TopLine="49"/>
       </Position12>
       <Position13>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="267" Column="3" TopLine="251"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
       </Position13>
       <Position14>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="5" Column="68"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="181" Column="11" TopLine="157"/>
       </Position14>
       <Position15>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="629" Column="4" TopLine="603"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="81" Column="11" TopLine="57"/>
       </Position15>
       <Position16>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="193" Column="26" TopLine="181"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
       </Position16>
       <Position17>
-        <Filename Value="maindlg.pas"/>
-        <Caret Line="172" Column="67" TopLine="152"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="181" Column="11" TopLine="157"/>
       </Position17>
       <Position18>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="141" Column="43" TopLine="134"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="40" TopLine="30"/>
       </Position18>
       <Position19>
-        <Filename Value="..\ATOMEK.Controls\controls.ledmeter.pas"/>
-        <Caret Line="149" Column="42" TopLine="132"/>
+        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Caret Line="196" Column="12" TopLine="172"/>
       </Position19>
       <Position20>
         <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="115" Column="36" TopLine="106"/>
       </Position20>
       <Position21>
         <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="70" Column="25" TopLine="49"/>
+        <Caret Line="99" Column="13" TopLine="75"/>
       </Position21>
       <Position22>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="173" Column="62" TopLine="158"/>
       </Position22>
       <Position23>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="181" Column="11" TopLine="157"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="80" TopLine="59"/>
       </Position23>
       <Position24>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="81" Column="11" TopLine="57"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="231" Column="15" TopLine="204"/>
       </Position24>
       <Position25>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="235" TopLine="207"/>
       </Position25>
       <Position26>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="181" Column="11" TopLine="157"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="232" Column="23" TopLine="218"/>
       </Position26>
       <Position27>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="40" TopLine="30"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="255" TopLine="244"/>
       </Position27>
       <Position28>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="196" Column="12" TopLine="172"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="249" Column="65" TopLine="239"/>
       </Position28>
       <Position29>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="243" TopLine="237"/>
       </Position29>
       <Position30>
-        <Filename Value="..\ATOMEK.Controls\controls.signalstrength.pas"/>
-        <Caret Line="99" Column="13" TopLine="75"/>
+        <Filename Value="maindlg.pas"/>
+        <Caret Line="244" TopLine="237"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

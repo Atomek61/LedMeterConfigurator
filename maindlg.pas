@@ -78,6 +78,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure ListBoxColorNodesClick(Sender: TObject);
     procedure ListBoxColorNodesDrawItem(Control: TWinControl; Index: Integer; ARect: TRect; State: TOwnerDrawState);
+    procedure PanelColorOffClick(Sender: TObject);
     procedure PanelColorOnClick(Sender: TObject);
     procedure RadioButtonNormalClick(Sender: TObject);
     procedure RadioButtonVerticalClick(Sender: TObject);
@@ -225,11 +226,28 @@ begin
     Pen.Mode := pmNot;
     Pen.Style := psDot;
     FrameRect(ARect);
-    ARect.Left := ARect.Right - 2*ARect.Height;
+    ARect.Left := ARect.Right - 3*ARect.Height div 2;
     InflateRect(ARect, -2, -2);
     Brush.Color := LedMeter.ColorNodes[Index].OnColor;
     FillRect(ARect);
+    OffsetRect(ARect, -ARect.Width-2, 0);
+    Brush.Color := LedMeter.ColorNodes[Index].OffColor;
+    FillRect(ARect);
   end;
+end;
+
+procedure TMainDialog.PanelColorOffClick(Sender: TObject);
+var
+  i :integer;
+begin
+  i := ListBoxColorNodes.ItemIndex;
+  if i<>-1 then begin
+    ColorDialog.Color := LedMeter.ColorNodes[i].OffColor;
+    if ColorDialog.Execute then begin
+      LedMeter.ColorNodes[i].OffColor := ColorDialog.Color;
+    end;
+  end;
+
 end;
 
 procedure TMainDialog.PanelColorOnClick(Sender: TObject);

@@ -188,7 +188,7 @@ object MainDialog: TMainDialog
       Top = 185
       Width = 59
       Caption = 'Color Dark:'
-      Font.Color = clGrayText
+      Font.Color = clWindowText
       ParentColor = False
       ParentFont = False
     end
@@ -199,6 +199,7 @@ object MainDialog: TMainDialog
       Width = 30
       BevelOuter = bvLowered
       TabOrder = 3
+      OnClick = PanelColorOffClick
     end
     object ButtonDelColorNode: TButton
       Left = 62
